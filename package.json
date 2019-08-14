@@ -1,0 +1,25 @@
+{
+  "name": "js-lab-00",
+  "version": "1.0.0",
+  "description": "First lab",
+  "main": "index.js",
+  "dependencies": {
+    "jest": "^24.8.0",
+    "mongo": "^0.1.0",
+    "node": "^12.8.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest __tests__"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TraeBenn22/JS-Lab-00.git"
+  },
+  "author": "Trae Bennett",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TraeBenn22/JS-Lab-00/issues"
+  },
+  "homepage": "https://github.com/TraeBenn22/JS-Lab-00#readme"
+}
