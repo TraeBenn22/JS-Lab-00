@@ -4,6 +4,7 @@
   "description": "First lab",
   "main": "index.js",
   "dependencies": {
+    "eslint": "^6.1.0",
     "jest": "^24.8.0",
     "mongo": "^0.1.0",
     "node": "^12.8.0"
