@@ -4,10 +4,14 @@
   "description": "First lab",
   "main": "index.js",
   "dependencies": {
+    "acorn": "^7.0.0",
     "eslint": "^6.1.0",
     "jest": "^24.8.0",
     "mongo": "^0.1.0",
-    "node": "^12.8.0"
+    "mongoose": "^5.6.9",
+    "node": "^12.8.0",
+    "supertest": "^4.0.2",
+    "uuid": "^3.3.2"
   },
   "devDependencies": {},
   "scripts": {
