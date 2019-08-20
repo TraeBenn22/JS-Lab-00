@@ -1,0 +1,46 @@
+{
+  "categories": [
+    {
+      "name": "food",
+      "display_name": "Food",
+      "description": "some food",
+      "id": 1
+    },
+    {
+      "name": "books",
+      "display_name": "Books",
+      "description": "uh yeah",
+      "id": 2
+    }
+  ],
+  "products": [
+    {
+      "category": "food",
+      "name": "soup",
+      "display_name": "Soup",
+      "description": "liquid in a can",
+      "id": 1
+    },
+    {
+      "category": "books",
+      "name": "a book",
+      "display_name": "big book",
+      "description": "a really big book",
+      "id": 2
+    },
+    {
+      "category": "food",
+      "name": "donuts",
+      "display_name": "Donuts",
+      "description": "foooooood",
+      "id": 3
+    },
+    {
+      "category": "food",
+      "name": "chickpeas",
+      "display_name": "chicks and peas",
+      "description": "gross",
+      "id": 4
+    }
+  ]
+}
