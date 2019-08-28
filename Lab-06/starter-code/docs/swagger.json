@@ -2,7 +2,7 @@
   "openapi" : "3.0.1",
   "info" : {
     "title" : "simple-api",
-    "description" : "Stuff that I need to Document",
+    "description" : "Stuff that I need to Document for API",
     "version" : "0.2"
   },
   "servers" : [ {
@@ -14,7 +14,7 @@
         "description" : "Get existing categories",
         "responses" : {
           "200" : {
-            "description" : "Fetched existing categories",
+            "description" : "go with existing categories",
             "content" : {
               "application/json; charset=utf-8" : {
                 "schema" : {
@@ -30,7 +30,7 @@
         } ]
       },
       "post" : {
-        "description" : "Add a new category",
+        "description" : "make a new category",
         "requestBody" : {
           "content" : {
             "application/json" : {
@@ -50,7 +50,7 @@
               },
               "examples" : {
                 "0" : {
-                  "value" : "{\"name\":\"sports\", \"display_name\":\"Sports\", \"description\":\"Physical activities\"}"
+                  "value" : "{\"name\":\"sports\", \"display_name\":\"Sports\", \"description\":\"\"}"
                 }
               }
             }
@@ -58,7 +58,7 @@
         },
         "responses" : {
           "201" : {
-            "description" : "Category successfully created",
+            "description" : "Category created",
             "content" : {
               "application/json; charset=utf-8" : {
                 "schema" : {
@@ -79,10 +79,10 @@
     },
     "/products" : {
       "get" : {
-        "description" : "Get existing products",
+        "description" : "Get products",
         "responses" : {
           "200" : {
-            "description" : "Fetch existing products successful",
+            "description" : "check existing products successful",
             "content" : {
               "application/json; charset=utf-8" : {
                 "schema" : {
@@ -121,7 +121,7 @@
               },
               "examples" : {
                 "0" : {
-                  "value" : "{\"category\":\"food\", \"name\":\"chickpeas\", \"display_name\":\"Chickpeas / Garbanzo Beans\", \"description\":\"Crunchy hummus\"}"
+                 
                 }
               }
             }
@@ -129,7 +129,7 @@
         },
         "responses" : {
           "201" : {
-            "description" : "Product successfully created",
+            "description" : " created",
             "content" : {
               "application/json; charset=utf-8" : {
                 "schema" : {
@@ -150,7 +150,7 @@
     },
     "/categories/id" : {
       "put" : {
-        "description" : "Update a category by id",
+        "description" : "category by id",
         "requestBody" : {
           "content" : {
             "application/json" : {
@@ -178,7 +178,7 @@
         },
         "responses" : {
           "200" : {
-            "description" : "Category successfully updated",
+            "description" : "Category updated",
             "content" : {
               "application/json; charset=utf-8" : {
                 "schema" : {
@@ -194,10 +194,10 @@
         } ]
       },
       "delete" : {
-        "description" : "Delete an existing category by id",
+        "description" : "Delete category by id",
         "responses" : {
           "200" : {
-            "description" : "Category successfully deleted",
+            "description" : "Category deleted",
             "content" : {
               "application/json; charset=utf-8" : {
                 "schema" : {
@@ -218,7 +218,7 @@
     },
     "/products/id" : {
       "put" : {
-        "description" : "Update a product by id",
+        "description" : "Update by id",
         "requestBody" : {
           "content" : {
             "application/json" : {
@@ -249,7 +249,7 @@
         },
         "responses" : {
           "200" : {
-            "description" : "Product successfully updated",
+            "description" : "Product updated",
             "content" : {
               "application/json; charset=utf-8" : {
                 "schema" : {
@@ -265,10 +265,10 @@
         } ]
       },
       "delete" : {
-        "description" : "Delete product by id",
+        "description" : "Delete by id",
         "responses" : {
           "200" : {
-            "description" : "Product successfully deleted",
+            "description" : "Product deleted",
             "content" : {
               "application/json; charset=utf-8" : {
                 "schema" : {
