@@ -2,7 +2,7 @@
   "openapi" : "3.0.1",
   "info" : {
     "title" : "simple-api",
-    "description" : "Important categories in Jo's life",
+    "description" : "Stuff that I need to Document",
     "version" : "0.2"
   },
   "servers" : [ {
