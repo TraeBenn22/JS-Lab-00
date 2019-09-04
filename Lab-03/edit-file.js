@@ -24,7 +24,7 @@ exports.readFile = (fileName, callback) => {
       callback(undefined, fileContents);
     }
   });
-}
+};
 
 exports.writeFile = (filePath, editedObject, callback) => {
 
@@ -36,15 +36,15 @@ exports.writeFile = (filePath, editedObject, callback) => {
     }
   });
 
-}
+};
 
 
 
 exports.readFilePromises = (fileName) => {
   return fsExtra.readFile(fileName);
-}
+};
 
 exports.writeFilePromises = (filePath, editedObject) => {
   return fsExtra.writeJson(filePath, editedObject)
-}
+};
 
