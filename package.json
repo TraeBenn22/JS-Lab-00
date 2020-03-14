@@ -4,7 +4,7 @@
   "description": "First lab",
   "main": "index.js",
   "dependencies": {
-    "acorn": "^7.0.0",
+    "acorn": "^7.1.1",
     "eslint": "^6.1.0",
     "jest": "^24.8.0",
     "json-server": "^0.15.0",
